@@ -1,0 +1,119 @@
+/* 7 - css comments */
+/* this rule styles our h3 titles */
+h3 {
+  color: yellowgreen;
+}
+
+/* 
+    that paragraph needs to be red 
+    and this is a multi line comment
+*/
+p {
+  color: red;
+}
+
+/* classes */
+.my-paragraphs {
+  background-color: #000;
+  color: aqua;
+  padding: 5px;
+}
+
+/* id */
+#exclusive-title {
+  background-color: purple;
+  padding: 10px;
+  color: white;
+}
+
+/* css selector order */
+body {
+  padding-bottom: 500px;
+}
+
+h2 {
+  border-bottom: 2px solid red;
+}
+
+.title {
+  border-bottom: 3px solid purple;
+}
+
+#another-title {
+  border-bottom: 4px solid gold;
+}
+
+/* color name */
+.color-name {
+  color: crimson;
+}
+
+/* hex */
+.hex {
+  color: #55a398;
+}
+
+.hex-2 {
+  color: #1a4c6f;
+}
+
+/* more about hex */
+.simple-hex {
+  color: #333;
+}
+
+.simple-hex-2 {
+  color: #a5f;
+}
+
+/* rgb */
+.rgb {
+  color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+  color: rgb(200, 93, 18);
+}
+
+/* rgba */
+.rgba {
+  color: rgba(200, 100, 50, 0.1);
+}
+
+/* hsl */
+.hsl {
+  color: hsl(100, 20%, 50%);
+}
+
+.hsl-2 {
+  color: hsl(255, 50%, 44%);
+}
+
+/* background-color */
+.bg {
+  background-color: #000;
+  color: yellow;
+}
+
+.bg-2 {
+  background-color: rgb(200, 40, 20);
+  color: #fff;
+}
+
+/* background opacity */
+.bg-opacity {
+  background-color: purple;
+  opacity: 0.2;
+}
+
+.bg-opacity-2 {
+  background-color: #999;
+  color: #000;
+  opacity: 0.8;
+}
+
+/* opacity just to the background element */
+.rgba-opacity {
+  background-color: rgba(90, 120, 25, 0.1);
+  color: #000;
+}

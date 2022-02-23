@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Basics</title>
+    <style>
+      p {
+        color: teal;
+      }
+    </style>
+    <!-- 4 -  external CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- 6 - multiple CSS files -->
+    <link rel="stylesheet" href="css/lists.css" />
+    <!-- 6.5 - challenge 2 -->
+    <link rel="stylesheet" href="css/titles.css" />
+  </head>
+  <body>
+    <!-- 1 - inline css -->
+    <h1 style="color: red">Change the color with inline CSS</h1>
+    <!-- 2 - multiple rules -->
+    <h1 style="color: purple; font-size: 44px">
+      Change the color and the font size with inline CSS
+    </h1>
+    <!-- 3 - internal CSS -->
+    <p class="my-paragraphs">Please, style me with the internal CSS</p>
+    <!-- 4 -  external CSS -->
+    <h3>My styles are from a external CSS :)</h3>
+    <!-- 5 - CSS order -->
+    <p style="color: teal">
+      I have a rule from external CSS and an Inline rule
+    </p>
+    <p>I have external and internal rules, but the external one won!</p>
+    <!-- 6 - multiple CSS files -->
+    <ul>
+      <li>Banana</li>
+      <li>Apple</li>
+      <li>Avocado</li>
+    </ul>
+    <!-- 6.5 - challenge 2 -->
+    <h4>Hey, do want some styles?</h4>
+    <!-- 7 - classes -->
+    <p class="my-paragraphs">Hey look at this paragraph</p>
+    <p class="my-paragraphs">Another paragraph with the same class</p>
+    <!-- 8 - id -->
+    <h1 id="exclusive-title">This title has an ID, and it is unique!</h1>
+    <!-- 9 - css selector order -->
+    <h2 id="another-title" class="title">This element has many rules!</h2>
+    <!-- 10 - color name -->
+    <p class="color-name">Let's use a color name</p>
+    <!-- 11 - hex -->
+    <p class="hex">This is colored with hex</p>
+    <p class="hex-2">This is also colored with hex</p>
+    <!-- 12 - more about hex -->
+    <p class="simple-hex">Let's use the simple form</p>
+    <p class="simple-hex-2">Let's use the simple form again</p>
+    <!-- 13 - rgb -->
+    <p class="rgb">Red color text</p>
+    <p class="mixed-rgb">Now we have a random color</p>
+    <!-- 14 - rgba -->
+    <p class="rgba">This element will be hard to see!</p>
+    <!-- 15 - hsl -->
+    <p class="hsl">Lets apply HSL color!</p>
+    <p class="hsl-2">Lets apply HSL color!</p>
+    <!-- 16 - background color -->
+    <h2 class="bg">Change my background</h2>
+    <p class="bg-2">Change my background, with RGB!</p>
+    <!-- 17 - background opacity -->
+    <div class="bg-opacity">
+      <h2>I'm fading!</h2>
+    </div>
+    <div class="bg-opacity-2">
+      <h3>I'm almost fully visible!</h3>
+    </div>
+    <!-- 18 - opacity in background only -->
+    <div class="rgba-opacity">
+      <h1>This needs to be fully visible</h1>
+    </div>
+  </body>
+</html>
