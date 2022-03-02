@@ -117,3 +117,119 @@ h2 {
   background-color: rgba(90, 120, 25, 0.1);
   color: #000;
 }
+
+/* background image */
+.bg-image {
+  color: #fff;
+  padding: 10px;
+  background-image: url("../img/nature.jpg");
+}
+
+/* centering bg image */
+.not-centered-bg,
+.centered-bg {
+  height: 400px;
+  width: 400px;
+}
+
+.not-centered-bg {
+  background-image: url("../img/bridge.jpg");
+}
+
+.centered-bg {
+  background-image: url("../img/bridge.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* height and width */
+.height-width {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+}
+
+.height-width-2 {
+  height: 300px;
+  background-color: darkgreen;
+}
+
+/* padding */
+.without-padding {
+  background-color: #111;
+}
+
+.with-padding {
+  background-color: #111;
+  padding: 20px;
+}
+
+/* padding individual sides */
+.padding-individual {
+  background-color: #111;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+/* padding shorthand */
+.padding-shorthand {
+  background-color: #222;
+  padding: 6px 12px 18px 24px; /* TOP, RIGHT, BOTTOM, LEFT */
+}
+
+.padding-shorthand-2 {
+  background-color: #222;
+  padding: 10px 20px; /* TOP AND BOTTOM, LEFT AND RIGHT */
+}
+
+/* padding and width */
+.without-box-sizing {
+  background-color: #333;
+  width: 200px;
+  padding: 50px;
+}
+
+.with-box-sizing {
+  background-color: #333;
+  width: 200px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+/* border */
+.border {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.border-2 {
+  border: 5px dotted #921;
+  padding: 10px;
+}
+
+/* border individual */
+.border-left {
+  border-left: 3px solid gold;
+}
+
+.border-bottom {
+  border-bottom: 2px dashed #123;
+  padding: 5px;
+}
+
+.rounded-p {
+  border: 4px solid blue;
+  background-color: #000;
+  color: blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.rounded-p-2 {
+  background-color: #000;
+  color: blue;
+  border-radius: 10px;
+  padding: 10px;
+}
