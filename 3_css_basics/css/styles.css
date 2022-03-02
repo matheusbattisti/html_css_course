@@ -219,6 +219,8 @@ h2 {
   padding: 5px;
 }
 
+/* rounded border */
+
 .rounded-p {
   border: 4px solid blue;
   background-color: #000;
@@ -232,4 +234,83 @@ h2 {
   color: blue;
   border-radius: 10px;
   padding: 10px;
+}
+
+/* margin */
+.margin-top {
+  margin-top: 25px;
+}
+
+.margin-shorthand {
+  margin: 5px 10px 15px 20px; /* TOP, RIGHT, BOTTOM, LEFT */
+}
+
+/* everything together */
+.box-model {
+  margin: 20px;
+  padding: 15px 20px;
+  border: 3px solid #854;
+  border-radius: 7px;
+  width: 200px;
+  height: 100px;
+}
+
+/* text alignment */
+.text-aligned {
+  text-align: right;
+}
+
+.container-text-center {
+  text-align: center;
+  width: 300px;
+  border: 1px solid red;
+}
+
+/* text decoration */
+.underline {
+  text-decoration: underline;
+}
+
+.line-trough {
+  text-decoration: line-through;
+}
+
+.remove-underline {
+  text-decoration: none;
+}
+
+/* text transformation */
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+/* letter spacing */
+.spacing {
+  letter-spacing: 5px;
+}
+
+/* fonts */
+
+.serif {
+  font-family: Georgia;
+}
+
+.sans-serif {
+  font-family: Helvetica;
+}
+
+.monospace {
+  font-family: "Courier New";
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
 }
