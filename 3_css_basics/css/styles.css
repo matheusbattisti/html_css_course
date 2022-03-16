@@ -257,6 +257,21 @@ h2 {
   height: 100px;
 }
 
+/* challenge 3 */
+#box-model-challenge {
+  margin: 15px;
+  padding: 15px;
+  border: 5px solid #456;
+  outline: 5px solid #441;
+  background-color: #123;
+}
+
+.challenge-title {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
 /* text alignment */
 .text-aligned {
   text-align: right;
@@ -375,4 +390,102 @@ h2 {
   position: static;
   width: 100px;
   height: 100px;
+}
+
+/* relative */
+.relative {
+  background-color: #224;
+  color: #fff;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 25px;
+}
+
+/* absolute */
+.absolute {
+  background-color: #425;
+  color: #fff;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 1px;
+  right: 0px;
+}
+
+/* relative and absolute */
+.relative-container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  position: relative;
+  margin-top: 120px;
+}
+
+.absolute-1,
+.absolute-2 {
+  width: 50px;
+  height: 50px;
+  background-color: #916;
+  position: absolute;
+}
+
+.absolute-1 {
+  left: 10px;
+  top: 10px;
+}
+
+.absolute-2 {
+  right: 10px;
+  bottom: 10px;
+}
+
+/* fixed */
+.fixed {
+  width: 100px;
+  height: 50px;
+  background-color: #264;
+  position: fixed;
+  right: 200px;
+  top: 20px;
+}
+
+/* sticky */
+.sticky {
+  width: 100px;
+  height: 50px;
+  background-color: #644;
+  position: sticky;
+  right: 200px;
+  top: 20px;
+}
+
+/* z index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.absolute-3 {
+  background-color: #123;
+  left: 0;
+  top: 0;
+}
+
+.absolute-4 {
+  background-color: #246;
+  left: 15px;
+  top: 15px;
+  z-index: 2;
+}
+
+.absolute-5 {
+  background-color: #489;
+  left: 35px;
+  top: 35px;
+  z-index: 3;
 }
