@@ -63,15 +63,21 @@ html {
   font-style: italic;
 }
 
-/* curiosidades */
+/* img bold container */
+.img-bold {
+  text-align: center;
+  font-weight: bold;
+}
 
-.curiosidades-container {
+/* curiosities */
+
+.curiosities-container {
   padding: 25px 0;
   margin: 25px 0;
   border-top: 1px dashed #ddd;
   border-bottom: 1px dashed #ddd;
 }
 
-.curiosidades-container li {
+.curiosities-container li {
   height: 30px;
 }
