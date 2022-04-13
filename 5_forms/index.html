@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML forms</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h2>HTML Forms</h2>
+    <!-- 1 - first form -->
+    <!-- 2 - form attributes -->
+    <form action="register.php" method="POST">
+      <div>
+        <label>First name:</label>
+        <input type="text" />
+      </div>
+      <!-- 3 - name attribute -->
+      <div>
+        <!-- 4 - label attribute -->
+        <label for="age">Age:</label>
+        <input type="text" name="age" />
+      </div>
+      <!-- 6 - select element -->
+      <div>
+        <label for="job">Select your job:</label>
+        <select name="job">
+          <option value="programmer">Programmer</option>
+          <option value="tester">Software Tester</option>
+          <option value="deveops">DevOps</option>
+        </select>
+      </div>
+      <!-- 7 - selected attribute -->
+      <div>
+        <label for="contract">Did you read our contract terms?</label>
+        <select name="contract">
+          <option value="yes">Yes</option>
+          <option value="no" selected>No</option>
+        </select>
+      </div>
+      <!-- 8 - multiple -->
+      <div>
+        <label for="items">Select your items:</label>
+        <select name="items" multiple>
+          <option value="bag">Bag</option>
+          <option value="wallet">Wallet</option>
+          <option value="pen">Pen</option>
+          <option value="pencil">Pencil</option>
+        </select>
+      </div>
+      <!-- 9 - textarea -->
+      <div>
+        <label for="comment"
+          >Do you have commentary? Share with us bellow!</label
+        >
+        <br />
+        <textarea name="comment"></textarea>
+      </div>
+      <!-- 10 - fieldset and legend -->
+      <div>
+        <fieldset>
+          <legend>About you:</legend>
+          <label for="firstname">First name:</label>
+          <input type="text" name="firstname" />
+          <label for="lastname">Last name:</label>
+          <input type="text" name="lastname" />
+        </fieldset>
+      </div>
+      <!-- 11 - datalist -->
+      <div>
+        <label for="flavor">Choose a flavor:</label>
+        <input list="flavors" name="flavor" />
+
+        <datalist id="flavors">
+          <option value="Cherry"></option>
+          <option value="Milk"></option>
+          <option value="Strawberry"></option>
+          <option value="Green Tea"></option>
+          <option value="Chocolate"></option>
+        </datalist>
+      </div>
+      <!-- 5 - submit button -->
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
