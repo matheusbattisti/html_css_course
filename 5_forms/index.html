@@ -80,6 +80,65 @@
           <option value="Chocolate"></option>
         </datalist>
       </div>
+      <!-- 12 - password -->
+      <div>
+        <label for="password">Type your password</label>
+        <input type="password" />
+      </div>
+      <!-- 14 - radio -->
+      <div>
+        <label for="car_model">Choose your car model:</label> <br />
+        <input type="radio" value="bmw" name="car_model" />
+        <label for="bmw">BMW</label> <br />
+        <input type="radio" value="ferrari" name="car_model" />
+        <label for="ferrari">Ferrari</label> <br />
+        <input type="radio" value="renault" name="car_model" />
+        <label for="renault">Renault</label> <br />
+      </div>
+      <!-- 15 - checkbox -->
+      <div>
+        <label for="optionals">Car optionals:</label> <br />
+        <input type="checkbox" name="optionals[]" value="big_tires" /> Big tires
+        <br />
+        <input type="checkbox" name="optionals[]" value="turbo_engine" /> Turbo
+        Engine <br />
+        <input type="checkbox" name="optionals[]" value="hybrid" /> Hybrid
+        <br />
+      </div>
+      <!-- 16 - date -->
+      <div>
+        <label for="birthday">Birthday date:</label>
+        <input type="date" name="birthday" />
+      </div>
+      <!-- 17 - email -->
+      <div>
+        <label for="email">Enter your email:</label>
+        <input type="email" name="email" />
+      </div>
+      <!-- 18 - file -->
+      <div>
+        <label for="image">Upload a image:</label>
+        <input type="file" name="image" />
+      </div>
+      <!-- 19 - number -->
+      <div>
+        <label for="salary">How much you earn per month?</label>
+        <input type="number" name="salary" />
+      </div>
+      <!-- 20 - value attribute -->
+      <div>
+        <p>Value attribute</p>
+        <input type="text" value="This value is in this input" />
+      </div>
+      <!-- 21 - disabled attribute -->
+      <div>
+        <p>Try to change the input value</p>
+        <input type="text" value="I am the only possible value" disabled />
+      </div>
+      <!-- 13 - reset form -->
+      <div>
+        <input type="reset" value="Reset form" />
+      </div>
       <!-- 5 - submit button -->
       <input type="submit" value="Send" />
     </form>
