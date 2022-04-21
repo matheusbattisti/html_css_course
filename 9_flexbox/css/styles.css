@@ -1,0 +1,90 @@
+body {
+  padding-bottom: 500px;
+}
+
+/* 1 - flex */
+.flex {
+  display: flex;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+/* 2 - column */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* 3 - wrap */
+.wrap {
+  display: flex;
+  /* try without wrap first */
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 40px;
+  width: 33%;
+  border: 1px solid red;
+}
+
+/* 4 - justify-content */
+.center,
+.space-between,
+.space-around,
+.end {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.center .box,
+.space-between .box,
+.space-around .box,
+.end .box {
+  width: 50px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.end {
+  justify-content: end;
+}
+
+/* 5- align items */
+.align-center,
+.flex-end,
+.stretch {
+  display: flex;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 1px solid blue;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-end {
+  align-items: flex-end;
+}
+
+.stretch {
+  align-items: stretch;
+}
+
+.stretch .box {
+  height: auto;
+}
