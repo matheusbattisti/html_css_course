@@ -88,3 +88,104 @@ body {
 .stretch .box {
   height: auto;
 }
+
+/* 6 - gap */
+.gap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid green;
+}
+
+.gap .box {
+  width: 32%;
+}
+
+/* 7 - order */
+.order {
+  display: flex;
+}
+
+#one {
+  order: 1;
+}
+
+#two {
+  order: 2;
+}
+
+#three {
+  order: 3;
+}
+
+/* 8 - grow */
+.grow {
+  display: flex;
+}
+
+.grow .box {
+  flex-grow: 1;
+  width: auto;
+}
+
+.grow .big {
+  flex-grow: 3;
+}
+
+/* 9 - basis */
+.basis {
+  display: flex;
+}
+
+.basis .box {
+  flex-basis: 20px;
+}
+
+.basis .big {
+  flex-grow: 1;
+}
+
+/* 10 - shrink */
+.shrink {
+  display: flex;
+  width: 500px;
+}
+
+.shrink .box {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 250px;
+  width: auto;
+}
+
+.shrink .small {
+  flex-shrink: 2;
+}
+
+/* 11 - flex shorthand */
+.shorthand {
+  display: flex;
+}
+
+.shorthand .box {
+  width: auto;
+  flex: 1 1 50px;
+}
+
+.shorthand .different {
+  flex: 2 1 200px;
+  background-color: blue;
+}
+
+/* 12 - self alignment */
+.self-alignment {
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid green;
+}
+
+.different {
+  align-self: center;
+}
